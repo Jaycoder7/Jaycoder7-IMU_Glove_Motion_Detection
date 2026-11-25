@@ -1,0 +1,21 @@
+# Arduino build files
+*.hex
+*.elf
+*.eep
+*.map
+*.bin
+*.uf2
+
+# Arduino temporary folders
+build/
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Python cache, for future scripts
+__pycache__/
+*.pyc
+
+# Keep data folders, but ignore temporary files
+data/raw/*.tmp
